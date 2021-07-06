@@ -53,7 +53,7 @@ function HomePage() {
 								<img src={layer} alt="" />
 							</div>
 						</Grid>
-						<Grid xl={6} sm={12} md={6} lg={6}>
+						<Grid xl={6} sm={12} md={6} lg={6} className="maiD">
 							<div className="welcomeRight">
 								<h1>Welcome to Coinbase</h1>
 								<p>

@@ -21,10 +21,27 @@
 	font-weight: 100;
 	width: 90%;
 }
+
 .belowNav__Left a {
 	padding: 10px 30px;
 	border-radius: 25px;
 	background-color: #fff;
 	text-decoration: none;
 	color: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+}
+.welcomeRight h1 {
+	color: rgba(253, 116, 155, 1);
+	padding-bottom: 20px;
+}
+.welcomeRight p {
+	padding-bottom: 20px;
+	font-weight: 500;
+	line-height: 35px;
+}
+.welcomeRight a {
+	padding: 10px 30px;
+	border-radius: 25px;
+	text-decoration: none;
+	color: white;
+	background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
 }
