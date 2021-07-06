@@ -47,9 +47,30 @@ function HomePage() {
 			</div>
 			<div className="welcome">
 				<Container>
-					<Grid>
-						<Grid xl={6} sm={6} md={6} lg={6}></Grid>
-						<Grid xl={6} sm={6} md={6} lg={6}></Grid>
+					<Grid container>
+						<Grid xl={6} sm={12} md={6} lg={6}>
+							<div className="welcomeLeft">
+								<img src={layer} alt="" />
+							</div>
+						</Grid>
+						<Grid xl={6} sm={12} md={6} lg={6}>
+							<div className="welcomeRight">
+								<h1>Welcome to Coinbase</h1>
+								<p>
+									We have the best rates.Simply start your
+									exchange rates now.Sign up for our Affiliate
+									program and earn some commission from each
+									exchange.The earnings are credited in your
+									account instantly and can be withdrawn right
+									away.Also note some exchange directions are
+									hidden for unregistered user.To ensure to
+									have access to all our exchange directions
+									and benefits .Kindly sign up and verify your
+									identity
+								</p>
+								<a href="/about-us">Discover</a>
+							</div>
+						</Grid>
 					</Grid>
 				</Container>
 			</div>
