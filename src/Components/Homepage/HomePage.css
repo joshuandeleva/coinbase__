@@ -1,0 +1,30 @@
+.belowNav {
+	background-image: url(../../assets/images/BG.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.maiD {
+	display: flex;
+	align-items: center;
+}
+.belowNav__Left h4 {
+	margin-bottom: 0;
+	color: white;
+	font-size: 28px;
+	font-weight: 700;
+	width: 60%;
+}
+.belowNav__Left p {
+	padding-bottom: 20px;
+	color: white;
+	font-weight: 100;
+	width: 90%;
+}
+.belowNav__Left a {
+	padding: 10px 30px;
+	border-radius: 25px;
+	background-color: #fff;
+	text-decoration: none;
+	color: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+}
