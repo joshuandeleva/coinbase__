@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.css";
+import Rates from "../Homepage/Rates";
 import rocket from "../../assets/images/img1.png";
 import layer from "../../assets/images/Layer2.svg";
 import { Container, Grid } from "@material-ui/core";
@@ -69,6 +70,32 @@ function HomePage() {
 									identity
 								</p>
 								<a href="/about-us">Discover</a>
+							</div>
+						</Grid>
+					</Grid>
+				</Container>
+			</div>
+			<div className="rates">
+				<Container>
+					<Grid container>
+						<Grid item xl={3} lg={3} sm={12} md={6}>
+							<div className="rates-title">
+								<h1>Our Rates</h1>
+								<div className="rates-body">
+									<Rates />
+								</div>
+							</div>
+						</Grid>
+						<Grid item xl={3} lg={3} sm={12} md={6}>
+							<div className="rates-title">
+								<h1>Our Services</h1>
+								<div className="rates-body"></div>
+							</div>
+						</Grid>
+						<Grid item xl={3} lg={3} sm={12} md={6}>
+							<div className="rates-title">
+								<h1>Latest Exchange</h1>
+								<div className="rates-body"></div>
 							</div>
 						</Grid>
 					</Grid>
