@@ -1,0 +1,17 @@
+.rateCard__Left {
+	display: flex;
+	align-items: baseline;
+}
+.rateCard__Left img {
+	height: 70px;
+	width: 70px;
+	object-fit: contain;
+}
+.rateCard {
+	display: flex;
+	align-items: center;
+}
+.rateCard__Right {
+	display: flex;
+	align-items: center;
+}
