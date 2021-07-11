@@ -2,6 +2,8 @@ import React from "react";
 import "./HomePage.css";
 import Rates from "../Homepage/Rates";
 import rocket from "../../assets/images/img1.png";
+import btc from "../../assets/images/bitcoin1.svg";
+import gftcard from "../../assets/images/Giftcard.svg";
 import exper from "../../assets/images/expe1.svg";
 import layer from "../../assets/images/Layer2.svg";
 import { Container, Grid } from "@material-ui/core";
@@ -139,13 +141,13 @@ function HomePage() {
 					<Grid container>
 						<Grid item xl={6} md={6} sm={6} lg={6} className="maiD">
 							<div className="trade__item">
-								<img src="" alt="" />
+								<img src={btc} alt="" />
 								<small>Bitcoin</small>
 							</div>
 						</Grid>
 						<Grid item xl={6} md={6} sm={6} lg={6} className="maiD">
 							<div className="trade__item">
-								<img src="" alt="" />
+								<img src={gftcard} alt="" />
 								<small>GiftCard</small>
 							</div>
 						</Grid>
