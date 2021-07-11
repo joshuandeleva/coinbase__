@@ -242,6 +242,27 @@ function HomePage() {
 					</Grid>
 				</Container>
 			</div>
+			<div className="clients__feedback">
+				<Container>
+					<div className="clients__say">
+						<Grid container>
+							<Grid item xl={12} md={12} lg={12} sm={12}>
+								<div className="clients__details">
+									<span>
+										10,000 clients satisfied around the
+										world
+									</span>
+									<p>
+										Yeah we are proud with numbers ,We have
+										helpedthousands of clients all around
+										the world with our bespoke services
+									</p>
+								</div>
+							</Grid>
+						</Grid>
+					</div>
+				</Container>
+			</div>
 		</div>
 	);
 }
