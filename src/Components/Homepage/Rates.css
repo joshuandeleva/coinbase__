@@ -1,17 +1,26 @@
 .rateCard__Left {
 	display: flex;
-	align-items: baseline;
+	align-items: center;
+}
+.rateCard__Left h1 {
+	padding-left: 20px;
+	color: inherit;
 }
 .rateCard__Left img {
-	height: 70px;
-	width: 70px;
+	height: 40px;
+	width: 40px;
 	object-fit: contain;
 }
 .rateCard {
 	display: flex;
 	align-items: center;
 }
+.Rates-cardMain {
+	border-top: 2px solid gray;
+}
 .rateCard__Right {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
+	padding-left: 20px;
 }

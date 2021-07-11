@@ -77,7 +77,7 @@ function HomePage() {
 			</div>
 			<div className="rates">
 				<Container>
-					<Grid container>
+					<Grid container className="rates__">
 						<Grid item xl={3} lg={3} sm={12} md={6}>
 							<div className="rates-title">
 								<h1>Our Rates</h1>
@@ -89,13 +89,13 @@ function HomePage() {
 						<Grid item xl={3} lg={3} sm={12} md={6}>
 							<div className="rates-title">
 								<h1>Our Services</h1>
-								<div className="rates-body"></div>
+								<Rates />
 							</div>
 						</Grid>
 						<Grid item xl={3} lg={3} sm={12} md={6}>
 							<div className="rates-title">
 								<h1>Latest Exchange</h1>
-								<div className="rates-body"></div>
+								<Rates />
 							</div>
 						</Grid>
 					</Grid>

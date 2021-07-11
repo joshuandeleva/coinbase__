@@ -8,7 +8,7 @@ function Rates() {
 	useEffect(() => {
 		const fetchData = async () => {
 			const resultsFromApi = await axios.get(
-				"https://api.coingecko.com/api/v3/coins/markets?vs_currency=EUR&order=market_cap_desc&per_page=10&page=1&sparkline=false"
+				"https://api.coingecko.com/api/v3/coins/markets?vs_currency=EUR&order=market_cap_desc&per_page=3&page=1&sparkline=false"
 			);
 			console.log(resultsFromApi.data);
 			setApiData(resultsFromApi.data);
@@ -24,12 +24,20 @@ function Rates() {
 							<div className="rateCard" key={index}>
 								<div className="rateCard__Left">
 									<img src={rateItem.image} alt="" />
+									<h1>{rateItem.symbol.toUpperCase()}</h1>
 								</div>
 								<div className="rateCard__Right">
-									<h1>{rateItem.symbol.toUpperCase()}</h1>
-
-									<span>
+									<span style={{ paddingBottom: 5 }}>
+										<small style={{ paddingRight: 20 }}>
+											We buy
+										</small>
 										${rateItem.current_price.toFixed(1)}
+									</span>
+									<span>
+										<small style={{ paddingRight: 20 }}>
+											We Sell
+										</small>{" "}
+										${rateItem.high_24h.toFixed(1)}
 									</span>
 								</div>
 							</div>

@@ -45,3 +45,24 @@
 	color: white;
 	background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
 }
+.rates {
+	background-image: url(../../assets/images/BG-rates.svg);
+	background-size: cover;
+	height: 1128.405029296875px;
+	width: 1663.623291015625px;
+	border-radius: 0px;
+	position: relative;
+}
+.rates__ {
+	display: flex;
+	align-items: center;
+	background-position: center;
+	background-color: white;
+	padding: 20px;
+	position: absolute;
+	margin-top: 550px;
+	border-radius: 30px;
+}
+.rates-title h1 {
+	color: rgba(253, 116, 155, 1);
+}
