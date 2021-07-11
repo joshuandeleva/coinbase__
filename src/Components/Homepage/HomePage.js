@@ -138,14 +138,28 @@ function HomePage() {
 							</div>
 						</Grid>
 					</Grid>
-					<Grid container>
-						<Grid item xl={6} md={6} sm={6} lg={6} className="maiD">
+					<Grid container spacing={0}>
+						<Grid
+							item
+							xl={6}
+							md={6}
+							sm={6}
+							lg={6}
+							className="maiD1"
+						>
 							<div className="trade__item">
 								<img src={btc} alt="" />
 								<small>Bitcoin</small>
 							</div>
 						</Grid>
-						<Grid item xl={6} md={6} sm={6} lg={6} className="maiD">
+						<Grid
+							item
+							xl={6}
+							md={6}
+							sm={6}
+							lg={6}
+							className="maiD1"
+						>
 							<div className="trade__item">
 								<img src={gftcard} alt="" />
 								<small>GiftCard</small>

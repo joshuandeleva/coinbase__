@@ -89,20 +89,41 @@
 }
 .trade-everyWhere {
 	background-image: url("../../assets/images/trades.svg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 	height: 500px;
-	position: relative;
 	width: 1663.62px;
+	position: absolute;
+	background-size: cover;
 }
 .trades__ {
 	background-color: #fff;
+	margin-top: 200px;
 	border-radius: 30px;
+	min-height: 400px;
+	box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
 }
 .trade__intro p {
 	color: rgba(253, 116, 155, 1);
 	text-align: center;
 	font-size: 28px;
 	font-weight: 700;
+}
+.trade__item {
+	width: 300px;
+	height: 200px;
+	border: 1px solid #fd749b;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+}
+.trade__item img {
+	height: 50px;
+	width: 50px;
+}
+.maiD1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-position: center;
 }
