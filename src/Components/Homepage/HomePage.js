@@ -130,40 +130,114 @@ function HomePage() {
 				</Container>
 			</div>
 			<div className="trade-everyWhere">
-				<Container className="trades__">
+				<Container>
+					<div className="trades__">
+						<Grid container>
+							<Grid item xl={12} md={12} sm={12} lg={12}>
+								<div className="trade__intro">
+									<p>Trade from anywhere</p>
+								</div>
+							</Grid>
+
+							<Grid container spacing={0}>
+								<Grid
+									item
+									xl={6}
+									md={6}
+									sm={6}
+									lg={6}
+									className="maiD1"
+								>
+									<div className="trade__item">
+										<img src={btc} alt="" />
+										<small>Bitcoin</small>
+									</div>
+								</Grid>
+								<Grid
+									item
+									xl={6}
+									md={6}
+									sm={6}
+									lg={6}
+									className="maiD1"
+								>
+									<div className="trade__item">
+										<img src={gftcard} alt="" />
+										<small>GiftCard</small>
+									</div>
+								</Grid>
+							</Grid>
+						</Grid>
+					</div>
+				</Container>
+			</div>
+			<div className="blogs">
+				<Container>
 					<Grid container>
 						<Grid item xl={12} md={12} lg={12} sm={12}>
-							<div className="trade__intro">
-								<p>Trade from anywhere</p>
+							<div className="blogs__intro">
+								<p>Our Blogs</p>
+								<h6>
+									Get to know the latest information about our
+									deals and operations via our posts
+								</h6>
 							</div>
 						</Grid>
-					</Grid>
-					<Grid container spacing={0}>
-						<Grid
-							item
-							xl={6}
-							md={6}
-							sm={6}
-							lg={6}
-							className="maiD1"
-						>
-							<div className="trade__item">
-								<img src={btc} alt="" />
-								<small>Bitcoin</small>
-							</div>
-						</Grid>
-						<Grid
-							item
-							xl={6}
-							md={6}
-							sm={6}
-							lg={6}
-							className="maiD1"
-						>
-							<div className="trade__item">
-								<img src={gftcard} alt="" />
-								<small>GiftCard</small>
-							</div>
+						<Grid container>
+							<Grid item xl={4} md={12} lg={4} sm={12}>
+								<div className="blogs__Item">
+									<div className="blogs__Title">
+										<span>12|07|2021</span>
+										<span>Technology</span>
+									</div>
+									<p>
+										simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum has
+										been the industry's standard dummy text
+										ever since the 1500s, when an unknown
+										printer took a galley of type and
+										scrambled it to make a type specimen
+										book. It has survived not only five
+									</p>
+									<a href="/">Read more</a>
+								</div>
+							</Grid>
+							<Grid item xl={4} md={12} lg={4} sm={12}>
+								<div className="blogs__Item">
+									<div className="blogs__Title">
+										<span>12|07|2021</span>
+										<span>Technology</span>
+									</div>
+									<p>
+										simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum has
+										been the industry's standard dummy text
+										ever since the 1500s, when an unknown
+										printer took a galley of type and
+										scrambled it to make a type specimen
+										book. It has survived not only five
+									</p>
+									<a href="/">Read more</a>
+								</div>
+							</Grid>
+							<Grid item xl={4} md={12} lg={4} sm={12}>
+								<div className="blogs__Item">
+									<div className="blogs__Title">
+										<span>12|07|2021</span>
+										<span>Technology</span>
+									</div>
+									<p>
+										simply dummy text of the printing and
+										typesetting industry. Lorem Ipsum has
+										been the industry's standard dummy text
+										ever since the 1500s, when an unknown
+										printer took a galley of type and
+										scrambled it to make a type specimen
+										book. It has survived not only five
+									</p>
+									<a href="/">Read more</a>
+								</div>
+							</Grid>
 						</Grid>
 					</Grid>
 				</Container>

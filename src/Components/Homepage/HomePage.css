@@ -81,7 +81,6 @@
 }
 .expereince__left a {
 	padding: 10px 30px;
-
 	border-radius: 25px;
 	color: #fff;
 	text-decoration: none;
@@ -91,19 +90,23 @@
 	background-image: url("../../assets/images/trades.svg");
 	height: 500px;
 	width: 1663.62px;
-	position: absolute;
+	position: relative;
 	background-size: cover;
 }
 .trades__ {
+	margin-top: 100px;
 	background-color: #fff;
-	margin-top: 200px;
-	border-radius: 30px;
+	width: 1000px;
+	position: absolute;
 	min-height: 400px;
+	border-radius: 30px;
 	box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
 }
+
 .trade__intro p {
 	color: rgba(253, 116, 155, 1);
 	text-align: center;
+	align-items: center;
 	font-size: 28px;
 	font-weight: 700;
 }
@@ -126,4 +129,41 @@
 	align-items: center;
 	justify-content: center;
 	background-position: center;
+}
+.blogs__intro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.blogs__intro p {
+	color: #fd749b;
+	font-size: 28px;
+	font-weight: 700;
+}
+.blogs__intro h6 {
+	margin: 0;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+.blogs__Item {
+	border: 2px solid lightgray;
+	border-radius: 10px;
+	padding: 20px 10px;
+	margin: 0 3px;
+}
+.blogs__Item > a {
+	padding: 10px 30px;
+	border-radius: 25px;
+	color: #fff;
+	margin-bottom: 20px !important;
+	text-decoration: none;
+	background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+}
+.blogs__Item p {
+	color: rgba(136, 136, 136, 1) !important;
+	line-height: 35px !important;
+}
+.blogs__Title span {
+	color: #fd749b;
 }
