@@ -2,6 +2,7 @@ import React from "react";
 import "./HomePage.css";
 import Rates from "../Homepage/Rates";
 import rocket from "../../assets/images/img1.png";
+import exper from "../../assets/images/expe1.svg";
 import layer from "../../assets/images/Layer2.svg";
 import { Container, Grid } from "@material-ui/core";
 function HomePage() {
@@ -96,6 +97,56 @@ function HomePage() {
 							<div className="rates-title">
 								<h1>Latest Exchange</h1>
 								<Rates />
+							</div>
+						</Grid>
+					</Grid>
+				</Container>
+			</div>
+			<div className="great-experience">
+				<Container>
+					<Grid container>
+						<Grid item xl={6} lg={6} md={6} sm={6} className="maiD">
+							<div className="expereince__left">
+								<h4>Great experience with Coinbase</h4>
+								<p>
+									coinbase is a online site andpa2admnin site
+									that allows users to buy ,sell and / exchage
+									digital and flat assets safely .Owned and
+									managed by Coinbase Business Services
+									estamblished and incorporated in the
+									universe{" "}
+								</p>
+								<a href="/">Discover</a>
+							</div>
+						</Grid>
+						<Grid item xl={6} lg={6} md={6} sm={6}>
+							<div className="experience__right">
+								<img src={exper} alt="" />
+							</div>
+						</Grid>
+					</Grid>
+				</Container>
+			</div>
+			<div className="trade-everyWhere">
+				<Container className="trades__">
+					<Grid container>
+						<Grid item xl={12} md={12} lg={12} sm={12}>
+							<div className="trade__intro">
+								<p>Trade from anywhere</p>
+							</div>
+						</Grid>
+					</Grid>
+					<Grid container>
+						<Grid item xl={6} md={6} sm={6} lg={6} className="maiD">
+							<div className="trade__item">
+								<img src="" alt="" />
+								<small>Bitcoin</small>
+							</div>
+						</Grid>
+						<Grid item xl={6} md={6} sm={6} lg={6} className="maiD">
+							<div className="trade__item">
+								<img src="" alt="" />
+								<small>GiftCard</small>
 							</div>
 						</Grid>
 					</Grid>

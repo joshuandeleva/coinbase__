@@ -66,3 +66,43 @@
 .rates-title h1 {
 	color: rgba(253, 116, 155, 1);
 }
+.expereince__left h4 {
+	margin-bottom: 0;
+	color: rgba(253, 116, 155, 1);
+	font-size: 28px;
+	font-weight: 700;
+	width: 60%;
+}
+.expereince__left p {
+	padding: 20px 0;
+	line-height: 35px;
+	font-weight: 400;
+	width: 90%;
+}
+.expereince__left a {
+	padding: 10px 30px;
+
+	border-radius: 25px;
+	color: #fff;
+	text-decoration: none;
+	background: linear-gradient(178.18deg, #fd749b -13.56%, #281ac8 158.3%);
+}
+.trade-everyWhere {
+	background-image: url("../../assets/images/trades.svg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	position: relative;
+	width: 1663.62px;
+}
+.trades__ {
+	background-color: #fff;
+	border-radius: 30px;
+}
+.trade__intro p {
+	color: rgba(253, 116, 155, 1);
+	text-align: center;
+	font-size: 28px;
+	font-weight: 700;
+}
