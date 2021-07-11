@@ -61,6 +61,7 @@
 	padding: 20px;
 	position: absolute;
 	margin-top: 550px;
+	width: 1300px !important;
 	border-radius: 30px;
 }
 .rates-title h1 {
@@ -166,4 +167,28 @@
 }
 .blogs__Title span {
 	color: #fd749b;
+}
+.clients__feedback {
+	background-image: url("../../assets/images/clientsbg.svg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 1663.64px;
+	height: 1542.15px;
+	position: relative;
+}
+.clients__details span {
+	color: white;
+}
+.clients__details p {
+	line-height: 35px;
+}
+.clients__say {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	margin-top: 550px;
+	justify-content: center;
+	text-align: center;
 }

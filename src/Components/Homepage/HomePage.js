@@ -2,6 +2,7 @@ import React from "react";
 import "./HomePage.css";
 import Rates from "../Homepage/Rates";
 import rocket from "../../assets/images/img1.png";
+import client from "../../assets/images/customers.svg";
 import btc from "../../assets/images/bitcoin1.svg";
 import gftcard from "../../assets/images/Giftcard.svg";
 import exper from "../../assets/images/expe1.svg";
@@ -254,9 +255,10 @@ function HomePage() {
 									</span>
 									<p>
 										Yeah we are proud with numbers ,We have
-										helpedthousands of clients all around
+										helped thousands of clients all around
 										the world with our bespoke services
 									</p>
+									<img src={client} alt="" />
 								</div>
 							</Grid>
 						</Grid>
